@@ -1,7 +1,7 @@
-const numberOfVowels = function(data){
+const numberOfVowels = function (data) {
   sumVowels = 0;
-  for(let i = 0; i < data.length; i++){
-    if (data[i] === "a" || data[i] === "e" || data[i] === "i" ||data[i] === "o" ||data[i] === "u"){
+  for (let i = 0; i < data.length; i++) {
+    if (data[i] === "a" || data[i] === "e" || data[i] === "i" || data[i] === "o" || data[i] === "u") {
       sumVowels += 1;
     }
   }
