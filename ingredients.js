@@ -13,7 +13,6 @@ for(let i = 0; i < ingredients.length; i++){
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
 */
 let i = ingredients.length - 1;
-console.log(i);
 while ( i >= 0 ){
   console.log(ingredients[i]);
   i--;
