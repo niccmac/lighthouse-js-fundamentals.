@@ -6,7 +6,6 @@ const sumLargestNumbers = function (data) {
       sum1 = data[i];
     }
   }
-  console.log(sum1);
   for (let j = 0; j < data.length; j++) {
     if (sum1 != data[j] && sum2 < data[j]) {
       sum2 = data[j];
